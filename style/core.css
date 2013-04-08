@@ -84,3 +84,8 @@ ul {
     display: block;
     position: static;
 }
+
+.no-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
