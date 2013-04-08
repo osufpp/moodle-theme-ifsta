@@ -1,0 +1,260 @@
+/*
+** Stylesheet for stuff specific to the Joomla template
+** $Id$
+*/
+
+body {
+    background: #BBBDBF url("[[pix:theme|full_gradient]]") repeat-y center;
+    color: #000;
+    margin: 0px;
+    font-size: 11px;
+    font-family: Lucida Grande, Lucida Sans, Verdana, Arial, sans-serif;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+.category-module h4 {
+    margin: 0px;
+}
+
+.navbar .hidden {
+    display: none;
+}
+
+#header ul.menu {
+    margin: 0px;
+    margin-top: 15px;
+    margin-right: 7px;
+}
+
+ul.pagenav, ul.category-module {
+    padding: 0px;
+}
+
+ul.pagenav li {
+    display: inline;
+}
+
+ul.pagenav li.pagenav-next {
+    float: right;
+}
+
+.pagenav li, .article-info li, .category-module li {
+    list-style-type: none;
+}
+
+.navbar li  {
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 15px;
+    font-size: 16px;
+}
+
+ul.buttons li {
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.breadcrumbs {
+    padding-left: 8px;
+}
+
+div.blog .product_info {
+    display: none;
+}
+
+div.item-page .product_info {
+    text-align: left;
+}
+
+div.item-page .product_sidebar {
+    float: right;
+
+}
+
+div.product_image {
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+}
+
+a.btn, a.btn:hover, a.btn:visited {
+    text-decoration: none;
+}
+
+.cartbtn, .prodbtn {
+    display: block;
+    width: 136px;
+    margin: 5px auto;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+div.pagination ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+div.pagination ul li {
+    display: inline-block;
+}
+div.pagination ul li .pagenav {
+    margin: auto 10px;
+}
+div.pagination ul li.pagination-start, div.pagination ul li.pagination-prev {
+    margin-right: 30px;
+}
+div.pagination ul li.pagination-end, div.pagination ul li.pagination-next {
+    margin-left: 30px;
+}
+
+div.pagination ul li span {
+    font-weight: bold;
+}
+
+div.pagination ul li a {
+    text-decoration: underline;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+input.inputbox {
+    width: 450px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.pagination-start a:before {
+    content: "<< ";
+}
+
+.pagination-prev a:before {
+    content: "< ";
+}
+
+.pagination-next a:after {
+    content: " >";
+}
+
+.pagination-end a:after {
+    content: " >>";
+}
+
+div.imgcaption {
+    text-align: center;
+    margin: 10px;
+}
+
+div.imgcaption img {
+    margin: auto;
+}
+
+div.imgcaption p {
+    text-align: left;
+    width: 200px;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.products-list {
+    padding: 10px;
+}
+
+.products-list ul {
+    list-style-type: none;
+}
+
+.products-list ul, .products-list li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.products-list li {
+    margin: 10px 0px;
+}
+
+ul.weblinks {
+    list-style-type: none;
+}
+
+ul.weblinks li {
+    margin: 0px;
+}
+
+#chapterlist {
+    padding: 5px;
+    width: 60%;
+}
+
+#chapterlist_header {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.borderless * {
+    border: none;
+}
+
+ul.dynamic_menu li ul
+{
+    display: none;
+}
+
+ul.dynamic_menu li.active ul {
+    display: block;
+}
+
+div#HeaderRight div {
+    float: right;
+    clear: both;
+}
+
+#HeaderRight div.search {
+    margin-top: 35px;
+}
+
+ul.treeview .active > a {
+    color: red;
+}
+
+label.tbg_longlabel {
+	width: auto !important;
+	margin-right: 15px;
+}
+
+a.hover_btn {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 400px 0px;
+}
+
+a.hover_btn:hover {
+    background-position: 0px 0px;
+}
+
+a.hover_btn img:hover {
+    opacity: 0
+}
+
+div.infoBoxContainer.treeview {
+    margin-bottom: 5px;
+}
+
+.borderless .ui-widget-content {
+    background: transparent;
+}
+
+.cfdiv_textarea textarea.manual_width {
+    width: auto !important;
+}

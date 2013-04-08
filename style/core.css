@@ -1,0 +1,86 @@
+html, body {
+    background: transparent;
+}
+
+.block_course_overview .content {
+    margin:  0px;
+}
+
+.infoBoxHeading.navbar {
+    height: 50px;
+    padding: 0px !important;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar ul {
+    margin-left: 20px;
+}
+
+.navbar ul li {
+    line-height: 52px;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.navbar ul li .sep {
+    margin: 0px 10px;
+}
+
+.navbar .singlebutton div {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    bottom: 12px;
+}
+
+.navbar .singlebutton input {
+    height: 100%;
+    padding: 6px;
+}
+
+.skip-block {
+    display: none;
+}
+
+.accesshide {
+    display: none;
+}
+
+th, td {
+    padding: 3px;
+}
+
+.calendar-controls {
+    text-align: center;
+}
+
+li {
+    list-style-type: none !important;
+}
+
+ul {
+    margin: 0px;
+}
+
+.block .header .block_action {
+    float: right;
+    margin: 0px;
+}
+
+.block {
+    border: none;
+}
+
+.blockmovetarget {
+    padding: 6px;
+    color: gray;
+    border: 1px dashed black;
+}
+
+.blockmovetarget .accesshide {
+    display: block;
+    position: static;
+}
