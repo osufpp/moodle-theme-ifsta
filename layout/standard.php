@@ -2,7 +2,30 @@
 
 $hassidepre = $PAGE->blocks->region_has_content('side-pre', $OUTPUT);
 $hassidepost = $PAGE->blocks->region_has_content('side-post', $OUTPUT);
-$bodywidth = $hassidepost ? 14 : 18;
+
+
+
+if($hassidepost && $hassidepre)
+{
+    $bodywidth = 14;
+    $bodyclasses = "grid_" . $bodywidth;
+    $bodyclasses .= " push_5";
+}
+elseif($hassidepre)
+{
+    $bodywidth = 19;
+    $bodyclasses = "grid_" . $bodywidth;
+    $bodyclasses .= " push_5";
+}
+elseif($hassidepost)
+{
+    $bodywidth = 19;
+    $bodyclasses = "grid_" . $bodywidth;
+}
+else {
+    $bodywidth = 24;
+    $bodyclasses = "grid_" . $bodywidth;
+}
 
 echo $OUTPUT->doctype() ?>
 <html>
@@ -35,9 +58,10 @@ echo $OUTPUT->doctype() ?>
         </div>
     </div>
 
-    <div id="bodyContent" class="grid_<?php echo $bodywidth; ?> push_5">
+    <div id="bodyContent" class="<?php echo $bodyclasses; ?>">
         <?php echo $OUTPUT->main_content() ?>
     </div>
+
 
     <div id="columnLeft" class="grid_5 pull_<?php echo $bodywidth; ?>">
         <?php if($hassidepre)
