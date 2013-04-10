@@ -89,3 +89,11 @@ ul {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.generalbox {
+    padding: 6px;
+}
+
+.loginbox {
+    overflow: hidden;
+}

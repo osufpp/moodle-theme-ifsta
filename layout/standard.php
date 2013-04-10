@@ -17,6 +17,7 @@ echo $OUTPUT->doctype() ?>
 
 <?php echo $OUTPUT->standard_top_of_body_html() ?>
 <div id="bodyWrapper" class="container_24">
+    <div id="page-content">
     <div id="header" class="grid_24">
         <div id="storeLogo">
             <a href="/">
@@ -82,7 +83,7 @@ echo $OUTPUT->doctype() ?>
         </div>
 
     </div>
-
+    </div>
 </div>
 <div id="hidden" style="display: none;">
 Footer
