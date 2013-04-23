@@ -53,9 +53,31 @@ echo $OUTPUT->doctype() ?>
     </div>
     <div class="grid_24 ui-widget infoBoxContainer">
         <div class="ui-widget-header ui-corner-all infoBoxHeading navbar">
-            <div class="breadcrumb"><?php echo $OUTPUT->navbar(); ?></div>
+            <ul>
+                <li>
+                    <a href="http://shop.ifsta.org/">IFSTA Shop</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=3">Instructor Toolkit</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=257">Course Preview</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=80">Help & Support</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=45">About Us</a>
+                </li>
+            </ul>
             <div class="navbutton"> <?php echo $PAGE->button; ?></div>
         </div>
+    </div>
+
+    <div class="breadcrumb grid_20 push_2">
+        <h3>
+            <?php echo $OUTPUT->navbar(); ?>
+        </h3>
     </div>
 
     <div id="bodyContent" class="<?php echo $bodyclasses; ?>">
