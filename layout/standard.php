@@ -70,13 +70,13 @@ echo $OUTPUT->doctype() ?>
                     <a href="/course/view.php?id=45">About Us</a>
                 </li>
             </ul>
-            <div class="navbutton"> <?php echo $PAGE->button; ?></div>
         </div>
     </div>
 
-    <div class="breadcrumb grid_20 push_2">
+    <div class="breadcrumb grid_24">
         <h3>
             <?php echo $OUTPUT->navbar(); ?>
+            <div class="navbutton"> <?php echo $PAGE->button; ?></div>
         </h3>
     </div>
 
