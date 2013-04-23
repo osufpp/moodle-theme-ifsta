@@ -17,7 +17,7 @@ $THEME->sheets = array(
     'stylesheet',
     'style'
 );
-$THEME->enable_dock = true;
+$THEME->enable_dock = false;
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->layouts = array(
     'base' => array(
