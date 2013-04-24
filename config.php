@@ -71,7 +71,7 @@ $THEME->layouts = array(
         'options' => array('langmenu'=>true),
     ),
     'popup' => array(
-        'file' => 'standard.php',
+        'file' => 'popup.php',
         'regions' => array(),
         'options' => array('nofooter'=>true),
     ),
