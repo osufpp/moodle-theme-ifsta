@@ -64,7 +64,10 @@ echo $OUTPUT->doctype() ?>
                     <a href="/course/view.php?id=257">Course Preview</a>
                 </li>
                 <li>
-                    <a href="/course/view.php?id=80">Help & Support</a>
+                    <a href="/course/view.php?id=538">FAQ</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=80">Support</a>
                 </li>
                 <li>
                     <a href="/course/view.php?id=45">About Us</a>
@@ -76,7 +79,9 @@ echo $OUTPUT->doctype() ?>
     <div class="breadcrumb grid_24">
         <h3>
             <?php echo $OUTPUT->navbar(); ?>
-            <div class="navbutton"> <?php echo $PAGE->button; ?></div>
+            <div class="navbutton"> <?php echo $PAGE->button; ?>
+            <?php if(isloggedin()) echo '<a href="/my"><button>My Courses</button></a>' ?>
+            </div>
         </h3>
     </div>
 

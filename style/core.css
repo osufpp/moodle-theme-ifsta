@@ -66,10 +66,17 @@ html, body {
     border: 1px solid black;
 }
 
-input[type=submit] {
+input[type=submit], .button, button {
     border-radius: 3px;
     border: 1px outset gray;
     padding: 3px;
+    cursor: pointer;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 11px;
+}
+
+a.button, a.button:hover, a.button:active {
+    text-decoration: none;
 }
 
 #adminsearchquery {
