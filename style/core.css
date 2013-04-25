@@ -148,3 +148,7 @@ ul {
 .blockannotation {
     margin: -4px 0px 10px 0px;
 }
+
+.loginbox .loginform .form-input input {
+    width: 160px !important;
+}
