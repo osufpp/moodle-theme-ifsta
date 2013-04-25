@@ -89,7 +89,7 @@ echo $OUTPUT->doctype() ?>
         <h3>
             <?php echo $OUTPUT->navbar(); ?>
             <div class="navbutton"> <?php echo $PAGE->button; ?>
-            <?php if(isloggedin()) echo '<a href="/my"><button>My Courses</button></a>' ?>
+            <?php if(isloggedin()) echo '<form action="/my" method="get"><input type="submit" value="My Courses" /></form>' ?>
             </div>
         </h3>
     </div>
