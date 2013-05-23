@@ -62,7 +62,7 @@ A.nohover:hover {
     padding-top: 5px;
 }
 
-#header {
+.site_header {
     height: 82px;
 }
 
