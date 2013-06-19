@@ -115,4 +115,19 @@ class theme_ifsta_core_renderer extends core_renderer
 
         return $output;
     }
+
+    /**
+     * Outputs the opening section of a box.
+     * ...And removes any unwanted classes. Whee!
+     *
+     * @param string $classes A space-separated list of CSS classes
+     * @param string $id An optional ID
+     * @return string the HTML to output.
+     */
+    public function box_start($classes = 'generalbox', $id = null) {
+        $this->opencontainers->push('box', html_writer::end_tag('div'));
+        $classes = str_replace('gradetreebox', '', $classes); // hahaha no you don't!
+        return html_writer::start_tag('div', array('id' => $id,
+            'class' => 'box ' . renderer_base::prepare_classes($classes)));
+    }
 };
