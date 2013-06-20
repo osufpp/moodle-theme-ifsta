@@ -270,6 +270,7 @@ div.box.gradetreebox {
 div.box.gradetreebox td.cell.name {
     width: 200px;
     white-space: normal;
+    height: 30px;
 }
 #grade_edit_tree_table {
     border: none;
