@@ -291,3 +291,15 @@ div.box.gradetreebox td.cell.name {
  {
     white-space: normal !important;
 }
+
+table.editcourse div.singleselect select {
+    width: 200px;
+}
+
+table.editcourse td.icons {
+    white-space: nowrap;
+}
+
+table.editcourse tr:hover {
+    background-color: #EAEAEA;
+}
