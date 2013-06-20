@@ -279,3 +279,15 @@ div.box.gradetreebox td.cell.name {
 #grade_edit_tree_table tbody .lastcol {
     border-right: 1px solid #AAA;
 }
+
+.gradestable th.user,
+.gradestable th.range,
+.gradestable th,
+.flexible th,
+.flexible td,
+.flexible th a,
+.flexible td a,
+.gradestable th.range
+ {
+    white-space: normal !important;
+}
