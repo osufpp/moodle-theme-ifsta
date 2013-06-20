@@ -258,3 +258,23 @@ div.infoBoxContainer.treeview {
 .cfdiv_textarea textarea.manual_width {
     width: auto !important;
 }
+
+div.box.gradetreebox {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    border: none;
+    overflow: visible;
+}
+
+div.box.gradetreebox td.cell.name {
+    width: 200px;
+    white-space: normal;
+}
+#grade_edit_tree_table {
+    border: none;
+}
+
+#grade_edit_tree_table tbody .lastcol {
+    border-right: 1px solid #AAA;
+}
