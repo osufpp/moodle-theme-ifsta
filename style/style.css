@@ -288,7 +288,7 @@ div.box.gradetreebox td.cell.name {
 .flexible th a,
 .flexible td a,
 .gradestable th.range
- {
+{
     white-space: normal !important;
 }
 
@@ -302,4 +302,8 @@ table.editcourse td.icons {
 
 table.editcourse tr:hover {
     background-color: #EAEAEA;
+}
+
+#bodyContent a {
+    color: #3b73af;
 }
