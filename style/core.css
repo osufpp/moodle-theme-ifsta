@@ -96,7 +96,9 @@ th, td {
     text-align: center;
 }
 
-li {
+div.breadcrumb li {
+    list-style-type: none !important;
+    margin-left: 0px;
 }
 
 ul {
