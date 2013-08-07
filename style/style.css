@@ -307,3 +307,8 @@ table.editcourse tr:hover {
 #bodyContent a {
     color: #3b73af;
 }
+
+ul li {
+    list-style: disc outside none;
+    margin-left: 20px;
+}
