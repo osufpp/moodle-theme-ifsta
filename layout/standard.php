@@ -128,13 +128,16 @@ echo $OUTPUT->doctype() ?>
             </p>
         </div>
 
-        <div class="grid_4 push_15">
-            <p align="center">
+        <div class="grid_5 push_14">
+            <p align="center" style="float: right;">
                 <a href="http://www.facebook.com/ifsta" target="_blank">
-                    <img src="<?php echo $OUTPUT->pix_url('tb_bfook', 'theme'); ?>" alt="IFSTA Facebook Page">
+                    <img src="<?php echo $OUTPUT->pix_url('tb_bfook', 'theme'); ?>" alt="IFSTA Facebook">
                 </a>
                 <a href="https://twitter.com/#!/IFSTA" target="_blank">
-                    <img src="<?php echo $OUTPUT->pix_url('tb_twif', 'theme'); ?>" alt="IFSTA Twitter Account">
+                    <img src="<?php echo $OUTPUT->pix_url('tb_twif', 'theme'); ?>" alt="IFSTA Twitter">
+                </a>
+                <a href="http://www.linkedin.com/company/ifsta" target="_blank">
+                    <img src="<?php echo $OUTPUT->pix_url('tb_dinklin', 'theme'); ?>" alt="IFSTA LinkedIn">
                 </a>
             </p>
         </div>
