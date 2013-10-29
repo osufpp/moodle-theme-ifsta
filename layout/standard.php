@@ -67,16 +67,16 @@ echo $OUTPUT->doctype() ?>
                     <a href="http://shop.ifsta.org/">IFSTA Shop</a>
                 </li>
                 <li>
-                    <a href="/course/view.php?id=3">Instructor Toolkit</a>
+                    <a href="/course/view.php?id=1126">Student Resources</a>
                 </li>
                 <li>
-                    <a href="/course/view.php?id=257">Course Preview</a>
+                    <a href="/course/view.php?id=3">Instructor Resources</a>
+                </li>
+                <li>
+                    <a href="/course/view.php?id=257">Sample Course</a>
                 </li>
                 <li>
                     <a href="/course/view.php?id=538">FAQ</a>
-                </li>
-                <li>
-                    <a href="/course/view.php?id=80">Support</a>
                 </li>
                 <li>
                     <a href="/course/view.php?id=45">About Us</a>
