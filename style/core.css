@@ -7,7 +7,7 @@ html, body {
 }
 
 .infoBoxHeading.navbar {
-    height: 50px;
+    height: 44px;
     padding: 0px !important;
 }
 
@@ -20,7 +20,7 @@ html, body {
 }
 
 .navbar ul li {
-    line-height: 52px;
+    line-height: 44px;
     vertical-align: middle;
     margin: 0px;
     display: inline-block;

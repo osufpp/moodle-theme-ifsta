@@ -312,3 +312,11 @@ ul li {
     list-style: disc outside none;
     margin-left: 20px;
 }
+
+.my_icon {
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-right: -1px;
+    margin-top: -1px;
+}

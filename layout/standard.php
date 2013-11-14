@@ -62,6 +62,11 @@ echo $OUTPUT->doctype() ?>
     </div>
     <div class="grid_24 ui-widget infoBoxContainer">
         <div class="ui-widget-header ui-corner-all infoBoxHeading navbar">
+        <div class="my_icon" style="margin-right: 1px;">
+            <a href="http://my.ifsta.org/">
+                <img src="http://info.test.ifsta.org/templates/fpp/images/My_IFSTA_small.png" alt="myIfsta">
+            </a>
+        </div>
             <ul>
                 <li>
                     <a href="http://shop.ifsta.org/">IFSTA Shop</a>
