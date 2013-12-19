@@ -64,7 +64,7 @@ echo $OUTPUT->doctype() ?>
         <div class="ui-widget-header ui-corner-all infoBoxHeading navbar">
         <div class="my_icon" style="margin-right: 1px;">
             <a href="http://my.ifsta.org/">
-                <img src="http://info.test.ifsta.org/templates/fpp/images/My_IFSTA_small.png" alt="myIfsta">
+                <img src="http://info.ifsta.org/templates/fpp/images/My_IFSTA_small.png" alt="myIfsta">
             </a>
         </div>
             <ul>
