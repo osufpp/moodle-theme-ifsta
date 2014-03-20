@@ -89,7 +89,13 @@ echo $OUTPUT->doctype() ?>
             </ul>
         </div>
     </div>
-
+<?php if(false === true) { ?>
+        <div class="grid_12 push_6" style="text-align: center;">
+            <div style="background-color: #FCC; border: solid 1px #C66;">
+                <p>Maintenance Notice: Access to ResourceOne will be intermittent between the hours of 9:15 PM CST and 8:00 AM CST.</p>
+            </div>
+        </div>
+<?php } ?>
     <div class="breadcrumb grid_24">
         <h3>
             <?php echo $OUTPUT->navbar(); ?>
