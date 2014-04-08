@@ -75,7 +75,7 @@ echo $OUTPUT->doctype() ?>
                     <a href="/course/view.php?id=1126">Skill Videos</a>
                 </li>
                 <li>
-                    <a href="/course/view.php?id=3">Sample Curriculum</a>
+                    <a href="/course/view.php?id=3">Instructor Access</a>
                 </li>
 <!--                <li>-->
 <!--                    <a href="/course/view.php?id=257">Sample Course</a>-->
