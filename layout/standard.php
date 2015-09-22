@@ -36,7 +36,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="stylesheet" type="text/css" href="/theme/ifsta/style/jquery.treeview.css" />
 </head>
 
-<body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?>">
+<body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses) ?>">
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
