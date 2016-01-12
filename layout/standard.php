@@ -69,7 +69,7 @@ echo $OUTPUT->doctype() ?>
         </div>
             <ul>
                 <li>
-                    <a href="http://shop.ifsta.org/">IFSTA Shop</a>
+                    <a href="https://www.ifsta.org">IFSTA Shop</a>
                 </li>
                 <li>
                     <a href="/course/view.php?id=1126">Skill Videos</a>
